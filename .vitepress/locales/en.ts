@@ -93,6 +93,7 @@ export const en = defineLocale({
             { text: 'Installing Cytoid', link: '/en/guide/gameplay/download' },
             { text: 'Getting levels', link: '/en/guide/gameplay/levels' },
             { text: 'Gameplay', link: '/en/guide/gameplay/play' },
+            { text: 'Ranked vs. Practice', link: '/en/guide/gameplay/ranked_vs_practice'},
           ],
         },
         {
