@@ -3,13 +3,11 @@
     "incremental": false,
     "target": "ESNext",
     "lib": ["DOM", "ESNext"],
-    "baseUrl": ".",
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "node16",
+    "moduleResolution": "node16",
     "types": [
       "vite/client",
-      "vitepress",
-      "./.vitepress/types/**/*"
+      "vitepress"
     ],
     "strict": true,
     "strictNullChecks": true,
