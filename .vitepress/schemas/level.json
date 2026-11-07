@@ -121,6 +121,7 @@
   },
   "type": "object",
   "required": [
-    "metadata", "charts"
+    "metadata",
+    "charts"
   ]
 }

@@ -1,7 +1,7 @@
 import type { Config } from 'tailwindcss'
-import colors from 'tailwindcss/colors'
 import daisyui from 'daisyui'
 import daisyuiThemes from 'daisyui/src/theming/themes'
+import colors from 'tailwindcss/colors'
 
 export const themeColor: keyof typeof colors = 'indigo'
 

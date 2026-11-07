@@ -1,9 +1,9 @@
-import { defineConfigWithTheme } from 'vitepress'
 import type { DefaultTheme } from 'vitepress/theme-without-fonts'
 import { resolve } from 'pathe'
+import AutoImport from 'unplugin-auto-import/vite'
 
 import Unfonts from 'unplugin-fonts/vite'
-import AutoImport from 'unplugin-auto-import/vite'
+import { defineConfigWithTheme } from 'vitepress'
 import * as locales from './locales'
 
 // https://vitepress.dev/reference/site-config

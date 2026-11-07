@@ -1,9 +1,9 @@
-import fs from 'node:fs'
-import { ofetch } from 'ofetch'
-import glob from 'fast-glob'
-import { resolve } from 'pathe'
-
 import type { ServicesLevel } from '../.vitepress/types/cytoid/levels.d.ts'
+import fs from 'node:fs'
+import glob from 'fast-glob'
+import { ofetch } from 'ofetch'
+
+import { resolve } from 'pathe'
 
 // @ts-expect-error __dirname
 const __dirname = import.meta.dirname;
@@ -87,6 +87,5 @@ async function getLevel(levelId: string): Promise<ServicesLevel | null> {
 }
 
 function log(...args: any[]) {
-  // eslint-disable-next-line no-console
   console.log('[refresh-levels]', ...args)
 }

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import DefaultTheme from 'vitepress/theme-without-fonts'
 import mediumZoom from 'medium-zoom'
+import DefaultTheme from 'vitepress/theme-without-fonts'
 
 import { useLocaleStorage } from '../composables/locale'
 

@@ -1,6 +1,6 @@
 import fs from 'node:fs'
-import { defineLoader } from 'vitepress'
 import { filename } from 'pathe/utils'
+import { defineLoader } from 'vitepress'
 
 declare const data: LevelData[]
 export { data }

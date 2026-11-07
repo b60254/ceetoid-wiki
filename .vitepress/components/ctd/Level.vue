@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { ofetch } from 'ofetch'
+import type { LevelData } from '../../levels.data'
 
 import type { ServicesLevel } from '../../types/cytoid/levels'
-import { type LevelData, data as cached } from '../../levels.data'
+import { ofetch } from 'ofetch'
+import { data as cached } from '../../levels.data'
 import LevelOffline from './LevelOffline.vue'
 
 const props = defineProps<{

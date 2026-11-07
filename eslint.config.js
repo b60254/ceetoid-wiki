@@ -17,5 +17,5 @@ export default antfu(
       'curly': ['error', 'all'],
       'no-undef': 'off',
     },
-  }
+  },
 )
